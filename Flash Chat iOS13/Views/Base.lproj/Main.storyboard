@@ -53,7 +53,7 @@
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Bgz-2N-dsH"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="" id="Bgz-2N-dsH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -169,7 +169,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="u72-XV-6FN" id="Nfc-8N-TNr"/>
                         <outlet property="passwordTextfield" destination="hLb-P9-NkF" id="uaM-fo-m8M"/>
-                        <segue destination="lwd-AH-u8E" kind="presentation" modalPresentationStyle="fullScreen" id="qXK-jM-Mew"/>
+                        <segue destination="lwd-AH-u8E" kind="presentation" identifier="RegisterToChat" modalPresentationStyle="fullScreen" id="qXK-jM-Mew"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -264,7 +264,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="F21-w0-z4z" id="YUG-Hl-Rxj"/>
                         <outlet property="passwordTextfield" destination="abR-gz-opL" id="xCU-X2-hrx"/>
-                        <segue destination="lwd-AH-u8E" kind="presentation" modalPresentationStyle="fullScreen" id="Ab6-77-9Gj"/>
+                        <segue destination="lwd-AH-u8E" kind="presentation" identifier="LoginToChat" modalPresentationStyle="fullScreen" id="Ab6-77-9Gj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XcE-Gk-YZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -373,7 +373,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ab6-77-9Gj"/>
+        <segue reference="qXK-jM-Mew"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="119"/>
