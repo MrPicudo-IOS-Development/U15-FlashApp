@@ -1,14 +1,17 @@
 /* AppDelegate.swift --> Flash Chat iOS13. Created by Angela Yu on 21/10/2019 */
 
 import UIKit
+import FirebaseCore
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Aquí va la inicialización de Firebase de Google.
+        FirebaseApp.configure()
+        
         return true
     }
 
